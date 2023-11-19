@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo-ts.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@300;400;700;900&family=Vollkorn:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title> Taylor Swift </title>
+</head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(215, 211, 206);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">
+            <img class="Header__LogoImage Header__LogoImage--primary" src="//store.taylorswift.com/cdn/shop/files/Logo_90ad5132-cc5b-4676-83e8-df8ac9c433c7_270x.png?v=1699897856" srcset="//store.taylorswift.com/cdn/shop/files/Logo_90ad5132-cc5b-4676-83e8-df8ac9c433c7_270x.png?v=1699897856 1x, //store.taylorswift.com/cdn/shop/files/Logo_90ad5132-cc5b-4676-83e8-df8ac9c433c7_270x@2x.png?v=1699897856 2x" width="270" alt="Taylor Swift Official Store">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home" style="color: rgb(173, 166, 155);">Home</a>
+              <a class="nav-link" href="#song" style="color: rgb(173, 166, 155);"> Song </a>
+              <a class="nav-link" href="#picture"style="color: rgb(173, 166, 155);" > Picture </a>
+              <a class="nav-link" href="#about"style="color: rgb(173, 166, 155);" > About </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Home -->
+        <section id="home">
+
+          <div class="background">
+            <img class="bground" data-srcset="//store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_550x.jpg?v=167905512288675352761699731782 550w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1100x.jpg?v=167905512288675352761699731782 1100w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1445x.jpg?v=167905512288675352761699731782 1445w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1680x.jpg?v=167905512288675352761699731782 1680w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House.jpg?v=167905512288675352761699731782 1920w" sizes="100vw" 
+            data-src="//store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1445x.jpg?v=167905512288675352761699731782" 
+            alt="Holiday House" width="1920" height="1530" 
+            srcset="//store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_550x.jpg?v=167905512288675352761699731782 550w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1100x.jpg?v=167905512288675352761699731782 1100w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1445x.jpg?v=167905512288675352761699731782 1445w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1680x.jpg?v=167905512288675352761699731782 1680w, //store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House.jpg?v=167905512288675352761699731782 1920w" 
+            src="//store.taylorswift.com/cdn/shop/t/274/assets/SWIFT-House_1445x.jpg?v=167905512288675352761699731782">
+
+            <div class="container">
+                <div class="button-container">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                        Taylor's Album
+                    </button>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="carousel-container carousel-top">
+                            <div id="customCarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="debut.jpg" class="d-block w-100" alt="Image 1">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Debut </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="fearless.png" class="d-block w-100" alt="Image 2">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Fearless </h5>
+                                            <p> Taylor Swift</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="speaknow..jpeg" class="d-block w-100" alt="Image 3">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Speak Now </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="red.png" class="d-block w-100" alt="Image 4">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Red </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="11989.webp" class="d-block w-100" alt="Image 5">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> 1989 </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="reputation.png" class="d-block w-100" alt="Image 6">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Reputation </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="lover.png" class="d-block w-100" alt="Image 7">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Lover </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Taylor_Swift_-_Folklore.png" class="d-block w-100" alt="Image 8">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Folklore </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="evermore.png" class="d-block w-100" alt="Image 9">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Evermore </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Midnights_-_Taylor_Swift.png" class="d-block w-100" alt="Image 10">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5> Midnights </h5>
+                                            <p> Taylor Swift </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#customCarousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#customCarousel" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </section>
+<!-- Akhir Home -->
+
+<!-- Section bagian song -->
+    <section id="song">
+        <div class="background">
+
+            <div class="text"> Taylor Swift Song </div>
+
+        <div class="container">
+            <div class="card-container">
+        <div class="card border-success col-md-4-mb-4" onclick="showCardInfo(1)" style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Debut Taylor Swift </h5>
+              <p class="card-text">Album debut Taylor Swift adalah "Taylor Swift," yang dirilis pada tanggal 24 Oktober 2006. Album ini menandai awal karier musiknya setelah sebelumnya dikenal sebagai penulis lagu. Album ini berfokus pada musik country dengan elemen pop. Album ini mendapat pujian kritis dan mendapatkan beberapa penghargaan, termasuk Album Country Terbaik di Academy of Country Music Awards tahun 2008.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+        <div class="card border-warning col-md-4-mb-4" onclick="showCardInfo(2)" style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/landing-images/1678544276252-2-v2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Fearless (Taylor's Version) </h5>
+              <p class="card-text">"Fearless" adalah album studio kedua dari Taylor Swift, dirilis pada tanggal 11 November 2008. Album ini memperluas pengaruh musik Swift dari country ke pop country, dengan lirik yang fokus pada pengalaman romantis dan kehidupan remaja. "Fearless" mencapai kesuksesan luar biasa dan mendapatkan berbagai penghargaan, termasuk Album of the Year di Grammy Awards tahun 2010.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+        <div class="card col-md-4-mb-4" onclick="showCardInfo(3)" style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Speak Now (Taylor's Version) </h5>
+              <p class="card-text">
+                "Speak Now" adalah album studio ketiga dari Taylor Swift, dirilis pada tanggal 25 Oktober 2010. Salah satu ciri khas album ini adalah Swift menulis semua lagu sendiri tanpa kolaborasi dengan penulis lagu lain, sebuah pencapaian yang mencerminkan kreativitasnya yang mendalam. "Speak Now" terus mengeksplorasi tema-tema cinta dan hubungan, namun kali ini dengan sentuhan lebih matang. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="container">
+            <div class="card-container">
+        <div class="card border-danger col-md-4-mb-4" onclick="showCardInfo(4)"  style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/4.jpg"  alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Red (Taylor's Version) </h5>
+              <p class="card-text">
+                "Red" adalah album studio keempat dari Taylor Swift, dirilis pada tanggal 22 Oktober 2012. Album ini menandai pergeseran lebih lanjut dalam gaya musik Swift, memasukkan elemen-elemen pop lebih kuat sambil tetap mempertahankan akar country. "Red" mencakup berbagai emosi dan pengalaman, dengan lirik yang berfokus pada tema cinta dan kehilangan. Album ini dikenal karena menyertakan beberapa lagu yang menampilkan eksperimen Swift dengan berbagai genre</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+              
+        <div class="card border-info col-md-4-mb-4" onclick="showCardInfo(5)" style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> 1989 (Taylor's Version) </h5>
+              <p class="card-text">"1989" adalah album studio kelima dari Taylor Swift, dirilis pada tanggal 27 Oktober 2014. Album ini menandai pergeseran besar dalam gaya musik Swift, dengan fokus yang lebih kuat pada pop daripada country. Nama "1989" merujuk pada tahun lahir Swift dan mencerminkan pengaruh era 1980-an dalam elemen-elemen musik dan gaya album. "1989" terinspirasi oleh musik synth-pop dan new wave, menciptakan suara yang lebih bersih dan lebih modern. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+
+        <div class="card border-dark mb-4" onclick="showCardInfo(6)"style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/6.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Reputation </h5>
+              <p class="card-text">"Reputation" adalah album studio keenam Taylor Swift, dirilis pada 10 November 2017. Album ini menandai perubahan dramatis dalam gaya musik dan citra Swift. "Reputation" mengeksplorasi tema-tema seperti ketenaran, reputasi, dan perubahan citra diri, merespon pengalaman-pengalaman media dan opini publik terhadap Swift. Secara musikal, album ini lebih berfokus pada pop dan elektronika, dengan sentuhan elemen hip-hop dan R&B. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link"> Generator Lyrics </a>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="container">
+            <div class="card-container">
+        <div class="card col-md-4-mb-4" onclick="showCardInfo(7)"  style="width: 18rem;">
+            <img class="card-img-top"src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/7.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Lover </h5>
+              <p class="card-text">
+                "Lover" adalah album studio ketujuh dari Taylor Swift, dirilis pada tanggal 23 Agustus 2019. Album ini menandai kembali Swift ke akar musik pop dan menciptakan atmosfer yang lebih ceria dan optimis dibandingkan dengan pendahulunya, "Reputation." "Lover" terinspirasi oleh tema cinta, persahabatan, dan kebahagiaan, menunjukkan sisi yang lebih ringan dan positif dari Swift. Selain dari aspek musik, album ini mencerminkan perubahan dalam kehidupan pribadi Swift.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+        <div class="card border-secondary col-md-4-mb-4" onclick="showCardInfo(8)" style="width: 18rem;">
+            <img class="card-img-top"  src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/8.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Folklore (Deluxe Version) </h5>
+              <p class="card-text">
+                "Folklore" adalah album studio kedelapan dari Taylor Swift, dirilis secara mengejutkan pada 24 Juli 2020. Album ini menandai pergeseran signifikan dalam gaya musik Swift, beralih dari pop ke arah folk dan indie. "Folklore" menciptakan nuansa introspektif dan melankolis, dengan lirik yang lebih naratif dan musik yang lebih terfokus pada akustik. "Folklore" menjadi sukses besar, memenangkan beberapa penghargaan, termasuk Album of the Year di Grammy Awards 2021.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+
+        <div class="card col-md-4-mb-4" onclick="showCardInfo(9)" style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/landing-images/1678544281122-9-v2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Evermore (Deluxe Version) </h5>
+              <p class="card-text">"Evermore" adalah album studio kesembilan dari Taylor Swift, dirilis pada 11 Desember 2020. Album ini merupakan kelanjutan dari konsep musikal yang ditemukan dalam album sebelumnya, "Folklore." Swift kembali berkolaborasi dengan Aaron Dessner dari The National dan Jack Antonoff untuk menciptakan suara indie-folk yang melankolis. "Evermore" melibatkan eksplorasi naratif yang lebih dalam dan puitis, mengeksplorasi tema-tema seperti nostalgia, kerinduan, dan hubungan yang rumit.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link">Generator Lyrics</a>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="container">
+            <div class="card-container">
+        <div class="card col-md-4-mb-4" onclick="showCardInfo(10)" style="width: 18rem;">
+            <img class="card-img-top" src="https://assets.dmi.umgapps.com/assets/taylor-swift/tour-site/landing-images/10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> Midnights (3am Edition) </h5>
+              <p class="card-text">Midnights adalah album studio kesepuluh karya penyanyi-penulis lagu Amerika Taylor Swift, yang dirilis pada 21 Oktober 2022, melalui Republic Records. Diumumkan di Penghargaan Video Musik MTV 2022, album ini adalah karya pertama Swift sejak album-album 2020-nya, Folklore dan Evermore. Midnights adalah sebuah album konsep tentang kontemplasi nokturnal, ditulis dan diproduksi oleh Swift dengan Jack Antonoff sebagai kolaborator utamanya. Album ini terinspirasi oleh "13 malam-malam tanpa tidur" dalam hidup Swift. Dia mengangkat sebuah estetika visual glamor untuk album ini, diambil dari mode dan seni 1970-an.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+            </ul>
+            <div class="card-body">
+              <a href="reference.html" class="card-link"> Generator Lyrics </a>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="modal fade" id="cardInfoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> ALBUM SONG </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="cardInfoContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+    </section>
+<!-- Akhir section song -->
+
+<!-- Section Picture -->
+    <section id="picture">
+      <div class="bg">
+          <img class="tekstur" src="download (14).jpeg" alt="tekstur">
+          <div class="carousel-container carousel-bottom">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="8b9bb57d-8b14-4d57-8923-e80ca4594580.jpeg" class="d-block w-100" alt="slide 1">
+              </div>
+              <div class="carousel-item">
+                <img src="123.jpeg" class="d-block w-100" alt="slide 2">
+              </div>
+              <div class="carousel-item">
+                <img src="Taylor Swift.jpeg" class="d-block w-100" alt="slide 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+
+          <div class="teks">
+            Foto-foto Taylor Swift yang sangat imut dan lucu!
+          </div>
+          </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>           
+    </section>
+<!-- Akhir section Picture-->
+
+<!-- Section About -->
+    <section id="about">
+      <div class="about">
+        <p class="tekss">
+          @Nirmala Aizya Agatha Silalahi 2023
+        </p>
+      </div>
+    </section>
+<!-- Akhir Section About -->
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+@media screen and (max-width: 1920px) {
+  }
+
+body {
+  background-color: #0f1d28;
+}
+.background {
+  background-color: #0f1d28;
+  position: flex;
+  background-size: cover;
+}
+  
+.navbar {
+  background: linear-gradient(to right, rgba(215, 211, 206,0.1) 1%, rgba(255,255,255,0.1) 4%, transparent 1%, transparent 99%, rgba(255,255,255,0.1) 99%, rgba(255,255,255,0.1) 100%), 
+                linear-gradient(to bottom, rgba(215, 211, 206,0.1) 1%, rgba(255,255,255,0.1) 4%, transparent 1%, transparent 99%, rgba(255,255,255,0.1) 99%, rgba(255,255,255,0.1) 100%);
+  background-size: 3px 3px;
+  animation: noise-animation 6s infinite linear alternate-reverse;
+  }
+
+.bground {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0f1d28;
+  z-index: 1000;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  display: block;
+  }
+  
+.carousel-items {
+  width : 20%;
+  position: absolute;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: -110px;
+  color: aliceblue;
+}
+
+.modal {
+  background-color: rgba(26, 9, 78, 0.5); 
+  align-items: center;
+}
+
+.modal-header {
+  background-color: rgba(50, 22, 134, 0); 
+  border: none;
+  max-width: 450px;
+}
+
+.modal-content {
+  max-width: 550px;
+}
+
+.close {
+  color: #000; 
+}
+
+.modal-fade {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.modal.title {
+  color: #00000000;
+}
+
+.carousel-inner img {
+  width: 20%; 
+  height: auto; 
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%; 
+  margin-bottom: 30px; 
+}
+
+.svg {
+  position: absolute;
+  bottom: -93%;
+}
+
+.text {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  color: aliceblue;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  bottom: 90%;
+}
+
+.btn {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  color: aliceblue;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  bottom: 90%;
+}
+
+.tekstur {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0f1d28;
+  z-index: 1000;
+}
+
+.carousel-top {
+  max-width: 500px;
+}
+.carousel-bottom {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: -40%;
+  margin-left: 15%;
+}
+
+.carousel-inner {
+  border-radius: 10px; 
+}
+
+.about {
+  background-color: rgb(215, 211, 206); 
+  padding: 50px; 
+  text-align: center; 
+}
+
+.teks {
+  font-family: 'Abril Fatface';
+  color: white;
+  font-size: 65px;
+  margin-left: 50%;
+  margin-top: -25%;
+}
+
+.tekss {
+  font-family: 'Vollkorn';
+  margin-top: 10%;
+  color: white;
+  font-size: 20px;
+}

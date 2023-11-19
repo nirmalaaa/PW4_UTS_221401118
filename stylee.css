@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    margin-bottom: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .h1 {
+    font-family: 'Abril Fatface';
+  }
+  
+  #quote-container {
+    margin-bottom: 20px;
+  }
+  
+  #quote-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Vollkorn";
+  }
+  
+  #author {
+    margin-top: 5px;
+    font-style: italic;
+    font-family: "Vollkorn";
+    color: #0f1d28;
+  }
+  
+  #new-quote-btn {
+    background-color: #0f1d28;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Vollkorn';
+    transition: background-color 0.3s;
+  }
+  
+  #new-quote-btn:hover {
+    background-color: #CB79A4;
+  }
+  
